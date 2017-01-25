@@ -28,7 +28,7 @@
 		new THREE.MeshBasicMaterial({color: 0x441877})
 	);
 	
-	box.matrixWorld.setPosition(new THREE.Vector3(0, -100, 0))
+	box.matrixWorld.setPosition(new THREE.Vector3(0, -200, 0))
 	
 	// add the box to the scene
 	sim.scene.add(box);
