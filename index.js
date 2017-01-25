@@ -11,7 +11,7 @@
 {
 	// set up the render loop
 	var sim = new altspace.utilities.Simulation();
-	sim.camera.position.set(0,0,5);
+	sim.camera.position.set(0,0,0);
 	
 	if(altspace.inClient)
 	{
@@ -23,7 +23,7 @@
 	
 	// create a new purple box
 	var box = new THREE.Mesh(
-		new THREE.BoxGeometry(1,1,1),
+		new THREE.BoxGeometry(1.5,3,0.5),
 		new THREE.MeshBasicMaterial({color: 0x441877})
 	);
 	
