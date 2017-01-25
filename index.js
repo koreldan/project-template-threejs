@@ -25,7 +25,7 @@
 	// create a new purple box
 	var box = new THREE.Mesh(
 		new THREE.BoxGeometry(1.5,3,0.5),
-		new THREE.MeshBasicMaterial({color: 0x441877})
+		new THREE.MeshBasicMaterial({color: 0xff8800})
 	);
 	
 	box.matrixWorld.setPosition(new THREE.Vector3(0, -2000, 0))
